@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class FilmeTest {
+public class FilmeTest {// classe de teste
 
 	@Test
 	public void foraDeExibicaoSeDatasNulas(){
