@@ -5,14 +5,15 @@ apply plugin: 'eclipse'
 
 // configuração dos repositorios
 repositories {
-	maven { 
+	maven {
 		url "http://192.168.1.7:8071/repository/maven-public/"
 	}
+	jcenter()
 }
 
 dependencies {
     compile 'org.slf4j:slf4j-api:1.7.25'
-    
+
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.7.RELEASE'
 
     testCompile 'junit:junit:4.12'

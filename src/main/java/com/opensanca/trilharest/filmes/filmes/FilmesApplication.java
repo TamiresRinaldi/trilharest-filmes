@@ -1,4 +1,4 @@
-package com.opensanca.trilharest.filmes;
+package com.opensanca.trilharest.filmes.filmes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
